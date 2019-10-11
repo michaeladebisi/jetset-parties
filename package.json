@@ -1,0 +1,36 @@
+{
+  "name": "athena-parties",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.mjs",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "exit 0",
+    "start": "node --experimental-modules index.mjs",
+    "dev-start": "nodemon --experimental-modules index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint  ./**/**.mjs --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@ssh.dev.azure.com:v3/doo-athena1/dop-Athena1/parties"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "buffer": "^5.2.1",
+    "express": "^4.16.4",
+    "joi": "^14.3.0",
+    "knex": "^0.15.2",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.4",
+    "querystring": "^0.2.0",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0"
+  }
+}

@@ -1,0 +1,6 @@
+package.json
+package-lock.json
+holdings.json
+*.yml
+logs/**/*.*
+list_inst_modules.js
