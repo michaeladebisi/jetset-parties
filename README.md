@@ -17,8 +17,8 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone git@ssh.dev.azure.com:v3/doo-athena1/dop-Athena1/parties` this repository
-* `cd parties` 
+* `https://github.com/michaeladebisi/jetset-parties.git` this repository
+* `cd jetset-parties` 
 * `npm install`
 *
 * 
